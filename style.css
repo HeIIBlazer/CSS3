@@ -1,0 +1,237 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background: linear-gradient(0deg, rgb(108, 105, 255) 36%, rgb(207, 208, 255) 80%);
+	color: white;
+}
+
+.wrapper {
+	width: 1380px;
+	margin: 0px auto;
+}
+
+header {
+    background: linear-gradient(90deg, rgba(0,96,252,1) 0%, rgba(0,174,255,0.66) 25%, rgba(0,96,252,1) 50%, rgba(0,174,255,0.6601015406162465) 76%, rgba(0,96,252,1) 100%);
+	width: 1220px;
+	text-align: center;
+	margin: 0px auto;
+	overflow: hidden;
+
+	border-top: 10px solid #07105e;
+	border-left: 10px solid #070d5e;
+	border-bottom: 10px solid #2a0ea8;
+	border-right: 10px solid #0e2aa8;
+	border-radius: 20px;
+}
+
+h1 {
+	text-shadow: 3px 3px 0px #00ffdd, 6px 6px 0px #0c2285, 9px 9px 0px #0066ff, -3px -3px 0px #00a1ad;
+	font-size: 120px;
+	position: relative;
+	transform: rotate(-25deg);
+	margin-top: 110px;
+	color: rgb(28, 67, 117);
+}
+
+li::before {
+	margin-left: 20px;
+}
+
+li::marker {
+	list-style-type: none; 
+	content: url("Images/wheel.png");
+	margin-top: 5px;
+}
+
+header div {
+	margin-bottom: 50px;
+	margin-top: 150px;
+
+}
+
+header img {
+	border-radius: 100%;
+	margin: 0px 30px;
+	box-shadow: 0px 0px 0px 5px #14b5ff, 0px 0px 0px 10px #104bcc, 0px 0px 0px 15px #0b1387;
+}
+
+.firstSection {
+	width: 1100px;
+	background: rgba(255, 255, 255, 30%);
+	padding: 20px;
+	margin: 0px auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: none;
+	border-radius: 0px;
+}
+
+.firstArticle {
+	background-color: rgb(255, 255, 255);
+	padding: 10px;	
+	font-style: italic;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 505px;
+	font-size: 19px;
+	color: rgb(5, 5, 5);
+	text-align: justify;
+}
+
+section {
+	width: 1100px;
+	border-top: 8px solid #0011ff;
+	border-left: 8px solid #0011ff;
+	border-bottom: 8px solid #0e70a8;
+	border-right: 8px solid #0e70a8;
+	border-radius: 20px;
+
+	margin: 0px auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: rgb(0,96,252);
+	background: linear-gradient(90deg, rgba(0,96,252,0.7469362745098039) 0%, rgba(0,240,252,0.6096813725490196) 50%, rgba(0,96,252,0.7609418767507002) 100%);
+}
+
+article {
+	background-color: rgba(103, 210, 236, 0.76);
+	padding: 20px;
+	font-family: 'Brygada 1918', serif;
+	font-size: 20px;
+	text-align: justify;
+	overflow: hidden;
+}
+
+h3 {
+	background-color: rgba(27, 70, 212, 0.63);
+	padding: 10px 5px;
+	width: 800px;
+	font-size: 35px;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 50px;
+	
+	border-width: 6px;
+  	border-style: solid;
+	border-image: linear-gradient(to right, rgb(6, 5, 80), rgba(255, 140, 0, 0)) 1;
+	text-shadow: 4px 2px 2px #805ce6, -4px -2px 2px #0d384d;
+}
+
+.classificationSection {
+	width: 900px;
+}
+
+.classification {
+	background-color: white;
+	color: #2414ff;
+	font-family: 'Balsamiq Sans', cursive;
+	line-height: 30px;
+	padding: 10px;
+	width: 800px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	box-shadow: 5px 5px 4px 10px #059bff, 10px 10px 10px 10px #2B2CFF, 15px 15px 0px 20px #1c1396;
+}
+
+.imgS {
+	width: 200px;
+	margin: 0px 10px;
+}
+
+
+.floatLeft {
+	float: left;
+}
+
+.floatRight {
+	float: right;
+}
+
+.clearFloat {
+	clear: both;
+}
+
+.imgBorder1 {
+	border-top: 8px solid #0011ff;
+	border-left: 8px solid #0011ff;
+	border-bottom: 8px solid #0e70a8;
+	border-right: 8px solid #0e70a8;
+	border-radius: 30px;
+}
+
+.imgBorder2 {
+	border-top: 4px solid #00f7ff;
+	border-right: 4px solid #00f7ff;
+	border-bottom: 4px solid #1e5bab;
+	border-left: 4px solid #1e5bab;
+
+	border-bottom-left-radius: 60px;
+	border-bottom-right-radius: 60px;
+	border-top-right-radius: 60px;
+	border-top-left-radius: 20px;
+}
+
+.ButterflyMain {
+	border-radius: 100%;
+	border: 5px solid rgb(0, 17, 255);
+	width:900px;
+
+}
+
+.ButterflyMain p {
+	text-align: center;
+}
+
+.ButterflyTop {
+	border-bottom-left-radius: 85%;
+	border-top-right-radius: 75%;
+}
+
+.ButterflyBottom {
+	border-bottom-right-radius: 85%;
+	border-top-left-radius: 75%;
+}
+
+.bottomImages {
+	overflow: hidden;
+	width: 1300px;
+	padding: 40px 0px;
+}
+
+.mirror {
+	transform: rotate(25deg);
+	margin-left: 130px;
+	width: 150px;
+	border: 3px solid white;
+	box-shadow: 10px 10px 17px 5px #164e74;
+}
+
+.mirrored {
+	transform: rotate(-155deg) scaleX(-1);
+	margin-left: 130px;
+	width: 150px;
+	border: 3px solid white;
+	opacity: 30%;
+}
+
+.firstRow {
+	margin-left: 40px;
+}
+
+.secondRow {
+	margin-left: -40px;
+}
+
+.arrowTop {
+    padding-left: 40px;
+}
+
+.arrowBot {
+    padding-left: 40px;
+
+}
+.asidee {
+    position: fixed;
+    bottom: 50px;
+    right: 60px;
+}
